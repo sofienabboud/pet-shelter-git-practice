@@ -11,7 +11,10 @@ class Pet:
 
     def describe(self) -> str:
         """Return a readable description of the pet."""
-        return f"{self.name} is a {self.age}-year-old {self.species}."
+        if self.age < 8:
+            return f"{self.name} is a {self.age}-year-old {self.species}."
+        else:
+            return f"{self.name} is a {self.age}-year-old senior {self.species}."
 
     def celebrate_birthday(self) -> str:
         """Increase the pet's age and return a birthday message."""
@@ -20,3 +23,7 @@ class Pet:
 
     def __str__(self) -> str:
         return self.describe()
+
+    def is_senior(self) -> bool:
+        """Return True if the pet is considered a senior (age 8 or older)."""
+        return self.age >= 8

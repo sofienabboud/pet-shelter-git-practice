@@ -18,6 +18,7 @@ def main() -> None:
     selected_pet = shelter.find_pet("Luna")
     if selected_pet is not None:
         print(selected_pet.celebrate_birthday())
+        print("Is Luna a senior pet?", selected_pet.is_senior())
 
 
 if __name__ == "__main__":
