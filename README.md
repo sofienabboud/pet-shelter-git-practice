@@ -1,6 +1,12 @@
 # Pet Shelter Practice Project
 
+## Project Overview
+
 This small Python project models pets and a shelter. It is the starter project for practicing Git and GitHub.
+
+## Classes
+- `Pet` represents an individual pet and its information.
+- `Shelter` represents the shelter and stores a collection of pets.
 
 ## Files
 
@@ -13,7 +19,7 @@ This small Python project models pets and a shelter. It is the starter project f
 ```bash
 python3 main.py
 ```
+## Features
 
-## Student Work
-
-Follow the course assignment to improve this README and modify the Python classes. Make small, meaningful commits as you work.
+- Creates pets and stores them in a shelter.
+- Displays information about the pets.
