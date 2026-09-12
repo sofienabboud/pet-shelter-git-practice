@@ -12,6 +12,7 @@ def main() -> None:
     shelter.add_pet(Pet("Kiwi", "bird", 2))
 
     print(f"Welcome to {shelter.name}!")
+    print("Shelter pet count:", shelter.pet_count())
     for description in shelter.list_pets():
         print(f"- {description}")
 
