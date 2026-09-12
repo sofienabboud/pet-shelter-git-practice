@@ -23,5 +23,3 @@ python3 main.py
 
 - Creates pets and stores them in a shelter.
 - Displays information about the pets.
-
-Temporary training note.
