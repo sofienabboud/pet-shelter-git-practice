@@ -23,3 +23,6 @@ python3 main.py
 
 - Creates pets and stores them in a shelter.
 - Displays information about the pets.
+- Detects senior pets.
+- Counts the number of pets in the shelter.
+- Allows pets to be adopted and removed from the shelter.
