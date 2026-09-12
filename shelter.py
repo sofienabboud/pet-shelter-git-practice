@@ -29,7 +29,7 @@ class Shelter:
         """Return the number of pets in the shelter."""
         return len(self.pets)
 
-    def adopt_pet(self, name: str) -> bool:
+    def adopt_pet(self, name: str) -> Pet | None:
         """Remove a pet from the shelter by name, ignoring capitalization."""
         pet = self.find_pet(name)
         if pet:
