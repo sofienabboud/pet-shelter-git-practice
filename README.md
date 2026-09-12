@@ -26,5 +26,3 @@ python3 main.py
 - Detects senior pets.
 - Counts the number of pets in the shelter.
 - Allows pets to be adopted and removed from the shelter.
-
-Temporary adoption workflow note.
