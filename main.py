@@ -21,6 +21,12 @@ def main() -> None:
         print(selected_pet.celebrate_birthday())
         print("Is Luna a senior pet?", selected_pet.is_senior())
 
+    adopted_pet = shelter.adopt_pet("Kiwi")
+
+    if adopted_pet is not None:
+        print(f"{adopted_pet.name} was adopted!")
+
+    print("New shelter pet count:", shelter.pet_count())
 
 if __name__ == "__main__":
     main()

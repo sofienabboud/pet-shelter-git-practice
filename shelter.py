@@ -28,3 +28,11 @@ class Shelter:
     def pet_count(self) -> int:
         """Return the number of pets in the shelter."""
         return len(self.pets)
+
+    def adopt_pet(self, name: str) -> bool:
+        """Remove a pet from the shelter by name, ignoring capitalization."""
+        pet = self.find_pet(name)
+        if pet:
+            self.pets.remove(pet)
+            return pet
+        return None
